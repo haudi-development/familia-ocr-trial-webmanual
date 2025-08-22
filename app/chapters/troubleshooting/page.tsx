@@ -3,7 +3,7 @@
 import React from 'react';
 import Breadcrumb from '@/components/Navigation/Breadcrumb';
 import InfoBox from '@/components/UI/InfoBox';
-import { AlertCircle, CheckCircle, XCircle } from 'lucide-react';
+import { AlertCircle, CheckCircle } from 'lucide-react';
 
 const faqItems = [
   {

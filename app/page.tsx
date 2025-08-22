@@ -3,7 +3,6 @@ import {
   LogIn, 
   LayoutDashboard, 
   FileSearch, 
-  Upload, 
   Bot, 
   FileOutput, 
   Download, 

@@ -1,7 +1,6 @@
 'use client';
 
 import React from 'react';
-import Image from 'next/image';
 import Breadcrumb from '@/components/Navigation/Breadcrumb';
 import InfoBox from '@/components/UI/InfoBox';
 import StepGuide from '@/components/Content/StepGuide';

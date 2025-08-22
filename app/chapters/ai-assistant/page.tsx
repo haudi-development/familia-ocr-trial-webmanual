@@ -3,7 +3,7 @@
 import React from 'react';
 import Breadcrumb from '@/components/Navigation/Breadcrumb';
 import InfoBox from '@/components/UI/InfoBox';
-import { Bot, Receipt, FileText, CreditCard, BookOpen } from 'lucide-react';
+import { Receipt, FileText, CreditCard, BookOpen } from 'lucide-react';
 
 const assistantTemplates = [
   {

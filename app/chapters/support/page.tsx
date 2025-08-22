@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Link from 'next/link';
 import Breadcrumb from '@/components/Navigation/Breadcrumb';
 import InfoBox from '@/components/UI/InfoBox';
 import { Mail, Phone, Clock, MessageCircle, FileText, Star } from 'lucide-react';
@@ -236,9 +237,9 @@ export default function SupportPage() {
               <Mail className="mr-2" size={18} />
               メールで問い合わせ
             </a>
-            <a href="/" className="inline-flex items-center bg-primary-dark text-white px-4 py-2 rounded-lg font-medium hover:bg-primary-dark/90 transition-colors">
+            <Link href="/" className="inline-flex items-center bg-primary-dark text-white px-4 py-2 rounded-lg font-medium hover:bg-primary-dark/90 transition-colors">
               トップページへ戻る
-            </a>
+            </Link>
           </div>
         </div>
       </div>

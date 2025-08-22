@@ -4,7 +4,7 @@ import React from 'react';
 import Breadcrumb from '@/components/Navigation/Breadcrumb';
 import InfoBox from '@/components/UI/InfoBox';
 import StepGuide from '@/components/Content/StepGuide';
-import { Upload as UploadIcon, FileText, MousePointer, Folder } from 'lucide-react';
+import { FileText, MousePointer, Folder } from 'lucide-react';
 
 const uploadSteps = [
   {
